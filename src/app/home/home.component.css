@@ -10,20 +10,7 @@
   width: 211px;
   height: 54px;
 }
-.container {
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  grid-gap: 90%;
 
-  margin-top: -310px;
-  z-index: 1;
-  margin-bottom: 355px;
-  position: relative;
-  z-index: 100 !important;
-}
 .carousel,
 .slick-initialized,
 .slick-slider {
