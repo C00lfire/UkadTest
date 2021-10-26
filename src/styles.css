@@ -10,39 +10,52 @@ html, body{
     height: 551px !important;
   
   }
-  /* @media (min-width: 1900px) {
-    .slick-slider {
-        width:75% !important;
-        height: 551px !important;
-      
-      }
+.slick-prev{
+    width: 68px !important;
+    height: 68px !important;
+    background-image: url(src\assets\img\2.svg) !important ;
+    background-size: 50px !important;
+     background-repeat: no-repeat !important;
+     background-position-x: 50% !important;
+     background-position-y: 50% !important;
+    margin-left: -60px;
+    border: 0px solid white !important ;
+    border-radius: 40px !important;
+    background: #ffffff ;
+    box-shadow: 0px 3.4px 17px rgba(0, 0, 0, 0.1) !important;
   }
-  @media (max-width: 1853px) {
-    .slick-slider {
-        width:80% !important;
-        height: 551px !important;
-      
-      }
+.slick-next  {
+    width: 68px !important;
+    height: 68px !important;
+     margin-right: -40px !important;
+     background-image: url(src\assets\img\1.svg)!important ;
+     background-size: 50px !important;
+     background-repeat: no-repeat !important;
+     background-position-x: 50% !important;
+     background-position-y: 50% !important;
+    border: 0px solid white;
+    border-radius: 40px;
+    background: #ffffff;
+    box-shadow: 0px 3.4px 17px rgba(0, 0, 0, 0.1);
   }
-  
-  @media (max-width: 1838px) {
-    .slick-slider {
-        width:80% !important;
-        height: 551px !important;
-      
-      }
+  .slick-arrow[aria-disabled="true"]{
+    visibility: hidden;
   }
-  @media (max-width: 1790px) {
-    .slick-slider {
-        width:80% !important;
-        height: 551px !important;
-      
-      }
+  .slick-arrow::before{
+        content: none !important;
   }
-  @media (max-width: 1678px) {
-    .slick-slider {
-        width:80% !important;
-        height: 551px !important;
-      
-      }
-  } */
+
+   /* Пытался натроить отступы для кнопок но медиа запросы не работают  */
+ /* @media (max-width:1820){
+  .slick-next {
+    margin-right: -40px;
+  }
+ }
+ @media (max-width:1139){
+  .slick-next {
+    margin-right: 100px !important;
+  }
+  .slick-prev{
+    margin-left: -50px !important;
+  }
+ } */
