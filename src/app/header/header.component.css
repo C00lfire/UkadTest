@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  height: 78px;
+  background-color: #022b32;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+img {
+  width: 110px;
+  height: 27px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 351px;
+  height: 27.3px;
+  left: 20px;
+  margin-top: 25px;
+  padding-left: 20px;
+}
+a {
+  padding-left: 55px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+}
+.active {
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+footer {
+  /* margin-bottom: 0px; */
+  width: 100% !important;
+  height: 78px;
+  
+  
+
+
+  /* left: 0px;
+  right: 0px; */
+
+  background-color: #022b32;
+}
+p {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  color: #ffffff;
+  position: absolute;
+  width: 145px;
+  height: 24px;
+  margin-left: 29px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}

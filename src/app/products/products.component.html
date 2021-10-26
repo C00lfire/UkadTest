@@ -1,0 +1,12 @@
+<div class="container">
+  <p class="title">Product Page</p>
+  <div class="grid">
+    <ng-container *ngFor="let product of products">
+      <div class="product-list">
+        <img [src]="product.img" />
+        <p class="type">{{ product.type }}</p>
+        <p class="desc">{{ product.description }}</p>
+      </div>
+    </ng-container>
+  </div>
+</div>
