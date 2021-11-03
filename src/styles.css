@@ -8,13 +8,13 @@ html, body{
 .slick-slider {
     width:80% !important;
     height: 551px !important;
-  
+    margin-bottom: 30px;
   }
 .slick-prev{
     width: 68px !important;
     height: 68px !important;
     background-image: url(src\assets\img\2.svg) !important ;
-    background-size: 50px !important;
+    background-size: 30px !important;
      background-repeat: no-repeat !important;
      background-position-x: 50% !important;
      background-position-y: 50% !important;
@@ -29,7 +29,7 @@ html, body{
     height: 68px !important;
      margin-right: -40px !important;
      background-image: url(src\assets\img\1.svg)!important ;
-     background-size: 50px !important;
+     background-size: 30px !important;
      background-repeat: no-repeat !important;
      background-position-x: 50% !important;
      background-position-y: 50% !important;
@@ -45,17 +45,4 @@ html, body{
         content: none !important;
   }
 
-   /* Пытался натроить отступы для кнопок но медиа запросы не работают  */
- /* @media (max-width:1820){
-  .slick-next {
-    margin-right: -40px;
-  }
- }
- @media (max-width:1139){
-  .slick-next {
-    margin-right: 100px !important;
-  }
-  .slick-prev{
-    margin-left: -50px !important;
-  }
- } */
+   
